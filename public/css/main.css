@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Savate:ital,wght@0,200..900;1,200..900&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Savate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+}
+
+button{
+    border: 3px #eee solid;
+    border-radius: .5em;
+    color: black;
+    background-color: none;
+    padding: .5em .75em;
+    width: fit-content;
+    height: fit-content;
+    font-weight: 900;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
