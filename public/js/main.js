@@ -1,5 +1,5 @@
-async function fetchDocument(){
-    let request = await fetch("https://api.mbuguaaaaaa.xyz/api/v1", {
+async function message(){
+    let request = await fetch("https://api.mbuguaaaaaa.xyz/api/message", {
         method: "POST",
         body: document.querySelector('body').innerHTML
     });
